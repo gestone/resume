@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Justin Harjanto</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <style>
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Calibri', 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              margin: 0; padding: 0;
+              display: block;
+            }
+            
+            a {
+              color: #C00000;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h1 {
+              text-transform: uppercase;
+              font-size:
+            }
+            
+            h2 {
+              text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.25em;
+              font-weight: 300;
+            }
+            
+            h3 {
+              margin-top: 0;
+              width: 66%;
+              float: left;
+            }
+            
+            .skills {
+              width: 100%;
+              text-transform: uppercase;
+              font-size: 1.3em;
+              color: #A9A9A9;
+              text-align: right;
+            }
+
+            .tech-label {
+              letter-spacing: 5px;
+            }
+            
+            .skills td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
+              color: black;
+            }
+            
+            hr {
+              display: none;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 1em;
+            }
+            
+            #employment div {
+              margin-top: 1em;
+              overflow: hidden; /* Clear floated children */
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            li {
+              text-align: justify;
+            }
+            
+            .tenure {
+              float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+            }
+            
+            span.keywords {
+              font-size: 10px;
+              color: #B16666;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 1em;
+            }
+            
+            h1 {
+              float: left;
+            }
+            
+            h1, h2, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
+            }
+            
+            #contact {
+             clear: both;
+             float: left;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 10px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
+            }
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+            }
+
+
+            #side-projects td {
+                padding: 10px;
+            }
+
+            
+            #side-projects-container {
+                width: 55%;
+                float: left;
+                padding-right: 10px;
+            }
+
+            #activites-container {
+                float: right;
+                width: 40%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>Justin <span style="color: #C00000;">Harjanto</span></h1>
+ <span class="label"></span>
+
+             <p id="contact">(425)-205-8187<br />gestone@uw.edu<br/><a href="http://www.justinharjanto.com">justinharjanto.com</a></p>
+            </header>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
+
+                </header>
+                <table class="skills">
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tech-label" style="width: 25%;">Frontend</td>
+                            <td class="keywords">HTML CSS Javascript React.JS Android</td>
+                        </tr>
+                        <tr>
+                            <td class="tech-label" style="width: 25%;">Backend</td>
+                            <td class="keywords">Java Python Haskell SQL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>employment</h2>
+
+                </header>
+                <div>
+                     <h3><em>Software Developer Intern</em>,
+              Microsoft
+              </h3>
+ <span class="tenure">September 2016 - December 2016</span>
+                    <p></p>
+                    <ul>
+                        <li>Working on the Azure Data Platforms team</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Software Developer Intern</em>,
+              Redfin
+              </h3>
+ <span class="tenure">June 2016 - September 2016</span>
+
+                    <p></p>
+                    <ul>
+                        <li>Created a customizable page in the Competitive Market Analysis packets
+                            that allow agents to showcase their strengths</li>
+                        <li>Designed and implemented all technical components of the feature including
+                            schema changes, backend API endpoints, monitoring, and rendering of the page
+                            on the PDF.
+                        </li>
+                        <li>Implemented small to medium sized features and bug fixes</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>CSE 341: Programming Languages TA</em>, UW CSE Dept
+              </h3>
+ <span class="tenure">March 2016 - June 2016</span>
+                    <p></p>
+                    <ul>
+                        <li>Attended lectures and weekly staff meetings, and setup grading rubrics for homework</li>
+                        <li>Held office hours, provided additional help on the class discussion board, and responded to student emails</li>
+                        <li>Wrote a system in Haskell that automatically sends grader feedback to students.</li>
+                    </ul>
+                </div>
+                <div>
+              </h3>
+                <div>
+                     <h3><em>Software Developer Intern</em>,
+              Socrata
+              </h3>
+ <span class="tenure">June 2015 - September 2015</span>
+
+                    <p></p>
+                    <ul>
+                        <li>Researched various large database stores solutions, namely, Amazon Redshift,
+                            Google BigQuery, and Apache Spark</li>
+                        <li>Integrated Google BigQuery as a new secondary data store with the rest
+                            of the tech stack in Scala</li>
+                        <li>Developed and ran benchmark tests against datasets of over 160 million
+                            rows to determine queries that are more suited for BigQuery and those that
+                            are more suited for Postgres</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Software Developer Intern</em>,
+              Voicebox Technologies
+              </h3>
+ <span class="tenure">June 2014 - September 2014</span>
+
+                    <p></p>
+                    <ul>
+                        <li>Developed an Android application used for audio data collection for crowd
+                            sourcing platforms and internal usage</li>
+                        <li>Application gathered over 60,000 audio recordings</li>
+                        <li>Developed a website to simulate push notifications to demo VoiceBox’s
+                            technologies for CES</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>education</h2>
+
+                </header>
+                <div>
+                     <h3>University of Washington: Seattle</h3>
+ <span class="tenure">September 2013 - Present</span>
+ <p> BS, Computer Science<br/> GPA: 3.78<br/><b>Expected Jun 2017</b></p>
+                
+                </div>
+            </section>
+            <hr>
+            <section id="side-projects-container">
+                <header id="side-projects-header"> <span class="fa fa-lg fa-github"></span> 
+                     <h2>side projects</h2>
+                </header>
+                <div>
+                    <table id="side-projects">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h3>LineCut</h3>
+                                    <p>
+                                        Developed the webserver and
+                                        designed front-end for a
+                                        service to notify customers
+                                        when their order is ready for
+                                        large scale events. Used by 800
+                                        people at a night market.
+                                    </p>
+                                </td>
+                                <td>
+                                    <h3>META</h3>
+                                    <p>
+                                        Educational Android
+                                        application that teaches
+                                        elementary math. Approved by
+                                        educators on the Google Play
+                                        education platform.
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h3>CS Grade Parser</h3>
+                                    <p>
+                                        An application that analyzes
+                                        grade sheets to calculate
+                                        predictive success of students
+                                        in the introductory UW CSE courses.
+                                    </p>
+                                </td>
+                                <td>
+                                    <h3>Gradenator</h3>
+                                    <p>
+                                        Created an Android app used
+                                        for keeping track of grades
+                                        with a clean interface.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="activites-container">
+                <header id="activites-header"> <span class="fa fa-lg fa-group"></span>
+                    <h2>activities</h2>
+                </header>
+                <table id="activities">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4>DubHacks (Oct 2015)</h4>
+                                <p>
+                                    Lyte: Social network focused on expression of emotions. Built with React.js, d3.js, node.js, and PostgresSQL. Winner of best use of personalization from Disney.
+                                </p>
+                                <h4>Zillow Hack Housing (Feb 2015)</h4>
+                                <p>
+                                Refine: A tinder-style application for
+                                matching homebuyers with homes
+                                for sale. Made on the Android platform with a node.js backend.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+
+</html>

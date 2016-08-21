@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "Justin Harjanto"
+  },
+  "work": [
+    {
+      "company": "Microsoft",
+      "position": "Software Developer Intern",
+      "startDate": "September 2016",
+      "endDate": "Present",
+      "summary": "Fall internship. Working on the Microsoft Data Platform."
+    },
+    {
+      "company": "Redfin",
+      "position": "Software Developer Intern",
+      "startDate": "June 2016",
+      "endDate": "September 2016",
+      "highlights": [
+        "Created a customizable page in the Competitive Market Analysis packets that allow agents to showcase their strengths",
+        "Designed and implemented how this feature was going to work including schema changes, backend API endpoints, monitoring, and how the page was going to be rendered on the frontend",
+        "Implemented small to medium sized features and bug fixes"
+      ]
+    },
+    {
+      "company": "Socrata",
+      "position": "Software Developer Intern",
+      "startDate": "June 2015",
+      "endDate": "September 2015",
+      "highlights": [
+        "Researched various large database stores solutions, namely, Amazon Redshift, Google BigQuery, and Apache Spark",
+        "Integrated Google BigQuery as a new secondary data store with the rest of the tech stack in Scala",
+        "Developed and ran benchmark tests against datasets of over 160 million rows to determine queries that are more suited for BigQuery and those that are more suited for Postgres"
+      ]
+    },
+    {
+      "company": "Voicebox Technologies",
+      "position": "Software Developer Intern",
+      "startDate": "June 2014",
+      "endDate": "September 2014",
+      "highlights": [
+        "Developed an Android application used for audio data collection for crowd sourcing platforms and internal usage",
+        "Application gathered over 60,000 audio recordings",
+        "Developed a website to simulate push notifications to demo VoiceBox’s technologies for CES"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Washington",
+      "startDate": "September 2013",
+      "endDate": "June 2017",
+      "area": "Computer Science",
+      "studyType": "Bachelors"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React.JS",
+        "Android"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Java",
+        "Python",
+        "Haskell",
+        "SQL"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Some study",
+      "publisher": "The Journal of Modern Medicine"
+    }
+  ]
+}
